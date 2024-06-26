@@ -26,10 +26,4 @@ jobs:
         with:
           push: true
           tags: sewalal/nodeapp:0.1.1
-      
-      - name: Extract metadata (tags, labels) for Docker
-        id: meta
-        uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
-        with:
-          images: sewalal/nodeapp:0.1.0
 
